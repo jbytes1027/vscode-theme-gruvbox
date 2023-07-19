@@ -64,7 +64,7 @@
     {
       "name": "Selector",
       "scope": [
-        "support.type.property-name.json.comments", // JSON Selector/key
+        "support.type.property-name.json", // JSON Selector/key
         "entity.name.tag" // HTML tag
       ],
       "settings": {
