@@ -27,6 +27,7 @@ class node:
 	def __repr__(self):
 		return "<class 'node'>\n%s" % str(self.__str__())[:-1]
 
+	@decorator
 	def print_tree(self, unicode=True):
 		'''Print subtree starting from this node'''
 		print(str(self.__str__(unicode=unicode))[:-1])
