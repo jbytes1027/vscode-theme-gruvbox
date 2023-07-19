@@ -27,9 +27,9 @@
   "contributes": {
     "themes": [
       {
-        "path": "./themes/gruvbox-dark-medium-color-theme.json"
+        "path": "./themes/gruvbox-dark-medium-color-theme.json",
         "uiTheme": "vs-dark",
-        "label": "Gruvbox Dark Medium Mod",
+        "label": "Gruvbox Dark Medium Mod"
       }
     ]
   },
