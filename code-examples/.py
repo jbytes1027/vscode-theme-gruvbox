@@ -29,5 +29,7 @@ class node:
 
 	@decorator
 	def print_tree(self, unicode=True):
+		VAR=100
+		print(VAR)
 		'''Print subtree starting from this node'''
 		print(str(self.__str__(unicode=unicode))[:-1])
