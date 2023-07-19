@@ -20,15 +20,6 @@
       }
     ]
   },
-  "__metadata": {
-    "id": "c6d564c4-ca8c-45ba-abf6-c85f2d1468d8",
-    "publisherDisplayName": "jbytes1027",
-    "publisherId": "571210a8-f372-43c2-8b5a-018868d4ac96"
-  },
-  "devDependencies": {
-    "ovsx": "^0.5.0",
-    "vsce": "^2.9.0"
-  },
   "private": true,
   "license": "MIT"
 }
