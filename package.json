@@ -1,7 +1,7 @@
 {
   "name": "gruvbox",
-  "displayName": "Gruvbox Theme",
-  "description": "Gruvbox Theme",
+  "displayName": "Gruvbox Theme Mod",
+  "description": "Gruvbox Theme Mod",
   "version": "1.8.0",
   "author": "jdinhify (https://github.com/jdinhify)",
   "contributors": [
@@ -24,20 +24,10 @@
   "categories": [
     "Themes"
   ],
-  "icon": "images/icon.png",
-  "galleryBanner": {
-    "color": "#3c3836",
-    "theme": "dark"
-  },
-  "homepage": "https://github.com/jdinhify/vscode-theme-gruvbox",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jdinhify/vscode-theme-gruvbox.git"
-  },
   "contributes": {
     "themes": [
       {
-        "label": "Gruvbox Dark Medium",
+        "label": "Gruvbox Dark Medium Mod",
         "uiTheme": "vs-dark",
         "path": "./themes/gruvbox-dark-medium-color-theme.json"
       }
@@ -49,15 +39,10 @@
     "publisherId": "571210a8-f372-43c2-8b5a-018868d4ac96"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "^6.0.1",
-    "@semantic-release/git": "^10.0.1",
     "ovsx": "^0.5.0",
     "semantic-release": "^19.0.3",
     "vsce": "^2.9.0"
   },
   "private": true,
-  "scripts": {
-    "semantic-release": "semantic-release"
-  },
   "license": "MIT"
 }
