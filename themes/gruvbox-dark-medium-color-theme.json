@@ -106,7 +106,7 @@
     {
       "scope": "markup.heading",
       "settings": {
-        "foreground": "#fb4934",
+        "foreground": "#8ec07c",
         "fontStyle": "bold"
       }
     },
@@ -130,7 +130,20 @@
     },
     // MARKDOWN
     {
-      "scope": "text.html.markdown punctuation.definition.link",
+      "scope": [
+        "punctuation.definition.list.begin.markdown",
+        "punctuation.definition.quote.begin.markdown"
+      ],
+      "settings": {
+        "foreground": "#a89984",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "text.html.markdown punctuation.definition.link",
+        "meta.link.inline.markdown"
+      ],
       "settings": {
         "foreground": "#a89984"
       }
