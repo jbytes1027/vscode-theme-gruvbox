@@ -21,34 +21,39 @@ import java.lang.Thread;
 
 public class Resources {
 
-//  ------- PORTS ------------
+	// ------- PORTS ------------
 	public static final int REGISTRY_PORT = 1099;
 
-//  ------- OTHER ------------
+	// ------- OTHER ------------
 	public static final String CA_DIGEST = "SHA-256";
 
-//  ------- CERTIFICATES ------------
+	// ------- CERTIFICATES ------------
 
+	@Override
 	public static Certificate readCertificateFile(String certificateFilePath) throws Exception {
 		FileInputStream fis;
 
-		try { fis = new FileInputStream(certificateFilePath); }
-		catch (FileNotFoundException e) {
+		try {
+			fis = new FileInputStream(certificateFilePath);
+		} catch (FileNotFoundException e) {
 			System.err.println(ERROR_MSG("Certificate File not found: " + certificateFilePath));
 			return null;
 		}
 		BufferedInputStream bis = new BufferedInputStream(fis);
 		CertificateFactory cf = CertificateFactory.getInstance("X.509");
 
-		if (bis.available() > 0) { return cf.generateCertificate(bis); }
+		if (bis.available() > 0) {
+			return cf.generateCertificate(bis);
+		}
 		bis.close();
 		fis.close();
 		return null;
 	}
 
 	public static boolean verifySignedCertificate(Certificate certificate, PublicKey caPublicKey) {
-		try { certificate.verify(caPublicKey); }
-		catch (Exception e) {
+		try {
+			certificate.verify(caPublicKey);
+		} catch (Exception e) {
 			return false;
 		}
 		return true;
@@ -71,12 +76,13 @@ public class Resources {
 		return pemCert;
 	}
 
-//  -----------------------------------
+	// -----------------------------------
 
 
-//  ------- SIGNATURES ------------
+	// ------- SIGNATURES ------------
 
-	public static byte[] makeDigitalSignature(byte[] bytes, PrivateKey privateKey) throws Exception {
+	public static byte[] makeDigitalSignature(byte[] bytes, PrivateKey privateKey)
+			throws Exception {
 		Signature sig = Signature.getInstance("SHA1WithRSA");
 		sig.initSign(privateKey);
 		sig.update(bytes);
@@ -84,7 +90,8 @@ public class Resources {
 		return signature;
 	}
 
-	public static boolean verifyDigitalSignature(byte[] cipherDigest, byte[] bytes, PublicKey publicKey) throws Exception {
+	public static boolean verifyDigitalSignature(byte[] cipherDigest, byte[] bytes,
+			PublicKey publicKey) throws Exception {
 		Signature sig = Signature.getInstance("SHA1WithRSA");
 		sig.initVerify(publicKey);
 		sig.update(bytes);
