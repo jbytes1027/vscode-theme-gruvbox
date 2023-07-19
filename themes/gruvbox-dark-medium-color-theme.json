@@ -20,6 +20,30 @@
         "fontStyle": "bold"
       }
     },
+    {
+      "scope": ["storage.type", "storage.modifier"], // Var related
+      "settings": {
+        "foreground": "#8EC07C"
+      }
+    },
+    {
+      "scope": ["constant", "string"],
+      "settings": {
+        "foreground": "#83A598"
+      }
+    },
+    {
+      "scope": ["keyword.control"],
+      "settings": {
+        "foreground": "#FB4934"
+      }
+    },
+    {
+      "scope": ["comment"],
+      "settings": {
+        "foreground": "#928374"
+      }
+    },
     // MARKUP ----------------------------------------
     {
       "scope": "markup.underline",
