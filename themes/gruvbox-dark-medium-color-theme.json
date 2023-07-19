@@ -85,6 +85,32 @@
       }
     },
     {
+      "scope": "markup.bold",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "markup.bold markup.italic",
+      "settings": {
+        "fontStyle": "italic bold"
+      }
+    },
+    {
+      "name": "fix bold italic ***",
+      "scope": "markup.bold punctuation.definition.italic",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "markup.heading",
+      "settings": {
+        "foreground": "#fb4934",
+        "fontStyle": "bold"
+      }
+    },
+    {
       "scope": "markup.inserted",
       "settings": {
         "foreground": "#b8bb26"
@@ -100,6 +126,23 @@
       "scope": "markup.changed",
       "settings": {
         "foreground": "#fe8019"
+      }
+    },
+    // MARKDOWN
+    {
+      "scope": "text.html.markdown punctuation.definition.link",
+      "settings": {
+        "foreground": "#a89984"
+      }
+    },
+    {
+      "scope": [
+        "markup.inline.raw",
+        "markup.raw.block.markdown",
+        "markup.fenced_code.block.markdown"
+      ],
+      "settings": {
+        "foreground": "#d3869b"
       }
     }
   ],
