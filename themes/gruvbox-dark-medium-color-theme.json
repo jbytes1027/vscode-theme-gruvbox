@@ -21,19 +21,36 @@
       }
     },
     {
-      "scope": ["storage.type", "storage.modifier"], // Var related
+      "name": "vars in comments",
+      "scope": ["variable"],
+      "settings": {
+        "foreground": "#ebdbb2"
+      }
+    },
+    {
+      "name": "var related",
+      "scope": [
+        "storage.type", // ex int
+        "storage.modifier", //ex static void
+        "meta.function.decorator" // ex @python-decorator
+      ],
       "settings": {
         "foreground": "#8EC07C"
       }
     },
     {
-      "scope": ["constant", "string"],
+      "scope": ["constant", "string", "keyword.control.anchor.regexp"],
       "settings": {
         "foreground": "#83A598"
       }
     },
     {
-      "scope": ["keyword.control"],
+      "name": "package related and code flow",
+      "scope": [
+        "keyword.control",
+        "keyword.other.package",
+        "keyword.other.import"
+      ],
       "settings": {
         "foreground": "#FB4934"
       }
@@ -42,6 +59,16 @@
       "scope": ["comment"],
       "settings": {
         "foreground": "#928374"
+      }
+    },
+    {
+      "name": "Selector",
+      "scope": [
+        "support.type.property-name.json.comments", // JSON Selector/key
+        "entity.name.tag" // HTML tag
+      ],
+      "settings": {
+        "foreground": "#8EC07C"
       }
     },
     // MARKUP ----------------------------------------
