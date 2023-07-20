@@ -196,16 +196,18 @@
     // PROGRESS BAR
     "progressBar.background": "#689d6a",
     // LISTS AND TREES
-    "list.activeSelectionBackground": "#3c383680",
+    "list.activeSelectionBackground": "#3c3836",
     "list.activeSelectionForeground": "#8ec07c",
     "list.hoverBackground": "#3c383680",
     "list.hoverForeground": "#d5c4a1",
     "list.focusBackground": "#3c3836",
     "list.focusForeground": "#ebdbb2",
+
     "list.inactiveSelectionForeground": "#689d6a",
     "list.inactiveSelectionBackground": "#3c383680",
     "list.dropBackground": "#3c3836",
     "list.highlightForeground": "#689d6a",
+    "list.focusAndSelectionOutline": "#3c3836",
     // SIDE BAR
     "sideBar.background": "#1d2021",
     "sideBar.foreground": "#d5c4a1",
@@ -213,6 +215,7 @@
     "sideBarTitle.foreground": "#ebdbb2",
     "sideBarSectionHeader.background": "#1d202100",
     "sideBarSectionHeader.foreground": "#ebdbb2",
+    "sideBarSectionHeader.border": "#3c3836",
     // ACTIVITY BAR
     "activityBar.background": "#1d2021",
     "activityBar.dropBackground": "#1d2021",
