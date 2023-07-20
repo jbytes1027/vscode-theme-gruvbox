@@ -1,4 +1,5 @@
 {
+  "$schema": "vscode://schemas/color-theme",
   "name": "Gruvbox Dark Medium",
   "type": "dark",
   "tokenColors": [
@@ -221,6 +222,7 @@
     "activityBar.dropBackground": "#1d2021",
     "activityBar.foreground": "#ebdbb2",
     "activityBar.border": "#3c3836",
+    "activityBar.activeBorder": "#8ec07c",
     "activityBarBadge.background": "#458588",
     "activityBarBadge.foreground": "#ebdbb2",
     // EDITOR GROUPS
