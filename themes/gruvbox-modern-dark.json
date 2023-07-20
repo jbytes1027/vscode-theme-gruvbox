@@ -204,7 +204,7 @@
     "list.activeSelectionBackground": "#3c3836",
     "list.activeSelectionForeground": "#d5c4a1",
     "list.hoverBackground": "#3c383680",
-    "list.hoverForeground": "#d5c4a1",
+    "list.hoverForeground": "#9b9384",
     "list.focusForeground": "#ebdbb2",
 
     "list.inactiveSelectionBackground": "#3c3836",
@@ -256,7 +256,7 @@
     "editor.lineHighlightBackground": "#3c383660",
     "editor.lineHighlightBorder": "#3c383600",
     "editorWhitespace.foreground": "#a8998420",
-    "editorIndentGuide.background": "#a8998420",
+    "editorIndentGuide.background": "#a8998400",
     "editorIndentGuide.activeBackground": "#a8998450",
     "editorRuler.foreground": "#a8998440",
     "editorCodeLens.foreground": "#a8998490",
@@ -392,6 +392,7 @@
     "textLink.activeForeground": "#458588",
     "debugToolBar.background": "#1d2021",
     "widget.border": "#3c3836",
-    "settings.modifiedItemIndicator": "#458588"
+    "settings.modifiedItemIndicator": "#458588",
+    "settings.headerForeground": "#ebdbb2"
   }
 }
