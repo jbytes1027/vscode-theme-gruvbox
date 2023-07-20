@@ -387,6 +387,7 @@
     // OTHERS
     "textLink.foreground": "#83a598",
     "textLink.activeForeground": "#458588",
-    "debugToolBar.background": "#1d2021"
+    "debugToolBar.background": "#1d2021",
+    "widget.border": "#3c3836"
   }
 }
