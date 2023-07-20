@@ -16,12 +16,7 @@
       {
         "path": "./themes/gruvbox-modern-dark.json",
         "uiTheme": "vs-dark",
-        "label": "Modern Dark Gruvbox"
-      },
-      {
-        "path": "./themes/dark-modern-mod.json",
-        "uiTheme": "vs-dark",
-        "label": "Modern Dark Mod"
+        "label": "Gruvbox Modern Dark"
       }
     ]
   },
