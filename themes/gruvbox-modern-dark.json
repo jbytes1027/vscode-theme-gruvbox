@@ -239,7 +239,7 @@
     "tab.inactiveBackground": "#1d2021",
     "tab.unfocusedActiveForeground": "#a89984",
     "tab.unfocusedActiveBorder": "#282828",
-    "tab.unfocusedActiveBorderTop": "#ff000000",
+    "tab.unfocusedActiveBorderTop": "#3c3836",
     "tab.unfocusedInactiveForeground": "#928374",
     // EDITOR
     "editor.background": "#282828",
