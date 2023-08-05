@@ -33,8 +33,9 @@
         "storage.type", // ex int
         "storage.modifier", //ex static void
         "meta.function.decorator", // ex @python-decorator
-        "entity.name.type.ts",
-        "support.type.primitive.ts"
+        "entity.name.type.ts", // ex CustomButton type
+        "support.type.primitive.ts", // ex string type
+        "support.type.builtin.ts" // ex null type
       ],
       "settings": {
         "foreground": "#8EC07C"
