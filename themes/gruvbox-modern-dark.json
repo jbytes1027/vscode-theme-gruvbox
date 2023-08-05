@@ -32,7 +32,9 @@
       "scope": [
         "storage.type", // ex int
         "storage.modifier", //ex static void
-        "meta.function.decorator" // ex @python-decorator
+        "meta.function.decorator", // ex @python-decorator
+        "entity.name.type.ts",
+        "support.type.primitive.ts"
       ],
       "settings": {
         "foreground": "#8EC07C"
