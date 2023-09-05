@@ -32,6 +32,7 @@
       "scope": [
         "keyword.type.cs", // ex cs string a = "Hi";
         "entity.name.type.cs", // ex cs Int32 a = 1;
+        "keyword.other.var.cs", // ex var a = 1;
         "storage.type", // ex int
         "storage.modifier", //ex static void
         "meta.function.decorator" // ex @python-decorator
