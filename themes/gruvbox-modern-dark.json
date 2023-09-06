@@ -4,6 +4,7 @@
   "type": "dark",
   "tokenColors": [
     {
+      "scope": ["keyword.control.new"],
       "settings": {
         "foreground": "#ebdbb2"
       }
@@ -22,7 +23,7 @@
     },
     {
       "name": "vars in comments",
-      "scope": ["variable"],
+      // "scope": ["variable"],
       "settings": {
         "foreground": "#ebdbb2"
       }
@@ -42,7 +43,7 @@
       }
     },
     {
-      "scope": ["constant", "string", "keyword.control.anchor.regexp"],
+      "scope": ["constant", "support.constant" /* ex css none, black, etc */, "string", "keyword.control.anchor.regexp"],
       "settings": {
         "foreground": "#83A598"
       }
