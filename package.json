@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "author": "jbytes1027",
   "publisher": "jbytes1027",
+  "repository": {"url": "https://github.com/jbytes1027/vscode-theme-gruvbox"},
   "engines": {
     "vscode": "^1.67.2"
   },
