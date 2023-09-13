@@ -34,6 +34,10 @@
         "keyword.type.cs", // ex cs string a = "Hi";
         "keyword.other.namespace.cs",
         "keyword.other.class.cs",
+        "keyword.other.struct.cs",
+        "keyword.other.record.cs",
+        "keyword.other.where.cs",
+        "keyword.other.enum.cs",
         "entity.name.type.cs", // ex cs Int32 a = 1;
         "keyword.other.var.cs", // ex var a = 1;
         "storage.type", // ex int
