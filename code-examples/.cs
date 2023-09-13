@@ -19,8 +19,9 @@ namespace API.Controllers
         public ThisShowcase(string name)
         {
             this.name = name;
+            $"test {name}";
         }
-        
+
         private readonly ILogger<WeatherForecastController> _logger;
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
@@ -42,7 +43,3 @@ namespace API.Controllers
         }
     }
 }
-
-
-
-

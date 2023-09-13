@@ -4,7 +4,13 @@
   "type": "dark",
   "tokenColors": [
     {
-      "scope": ["keyword.control.new"],
+      "scope": ["constant", "support.constant" /* ex css none, black, etc */, "string", "keyword.control.anchor.regexp"],
+      "settings": {
+        "foreground": "#83A598"
+      }
+    },
+    {
+      "scope": ["keyword.control.new", "meta.interpolation.cs" /* for {temp} in format strings */],
       "settings": {
         "foreground": "#ebdbb2"
       }
@@ -52,16 +58,11 @@
       }
     },
     {
-      "scope": ["constant", "support.constant" /* ex css none, black, etc */, "string", "keyword.control.anchor.regexp"],
-      "settings": {
-        "foreground": "#83A598"
-      }
-    },
-    {
       "name": "package related and code flow",
       "scope": [
         "keyword.control",
         "keyword.other.using.cs",
+        "keyword.other.await.cs",
         "keyword.other.package",
         "keyword.other.import"
       ],
