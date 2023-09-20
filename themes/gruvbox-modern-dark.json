@@ -10,7 +10,7 @@
       }
     },
     {
-      "scope": ["keyword.control.new", "meta.interpolation.cs" /* for {temp} in format strings */],
+      "scope": ["keyword.control.new", "meta.interpolation.cs" /* for {temp} in format strings */, "source.prolog keyword.control" /* disable prolog control */],
       "settings": {
         "foreground": "#ebdbb2"
       }
