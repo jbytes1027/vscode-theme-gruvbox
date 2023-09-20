@@ -70,6 +70,7 @@
       "name": "package related and code flow",
       "scope": [
         "keyword.control",
+        "keyword.other.special-method.dockerfile",
         "keyword.other.using.cs",
         "keyword.other.await.cs",
         "keyword.other.package",
