@@ -4,13 +4,22 @@
   "type": "dark",
   "tokenColors": [
     {
-      "scope": ["constant", "support.constant" /* ex css none, black, etc */, "string", "keyword.control.anchor.regexp"],
+      "scope": [
+        "constant",
+        "support.constant" /* ex css none, black, etc */,
+        "string",
+        "keyword.control.anchor.regexp"
+      ],
       "settings": {
         "foreground": "#83A598"
       }
     },
     {
-      "scope": ["keyword.control.new", "meta.interpolation.cs" /* for {temp} in format strings */, "source.prolog keyword.control" /* disable prolog control */],
+      "scope": [
+        "keyword.control.new",
+        "meta.interpolation.cs" /* for {temp} in format strings */,
+        "source.prolog keyword.control" /* disable prolog control */
+      ],
       "settings": {
         "foreground": "#ebdbb2"
       }
@@ -71,7 +80,9 @@
       }
     },
     {
-      "scope": ["comment"],
+      "scope": [
+        "comment"
+      ],
       "settings": {
         "foreground": "#a89984"
       }
@@ -188,7 +199,6 @@
     "button.secondaryForeground": "#ebdbb2",
     "button.secondaryBackground": "#504945",
     "button.secondaryHoverBackground": "#3c3836",
-
     // DROPDOWN
     "dropdown.background": "#282828",
     "dropdown.border": "#3c3836",
@@ -221,7 +231,6 @@
     "list.hoverBackground": "#3c383680",
     "list.hoverForeground": "#9b9384",
     "list.focusForeground": "#ebdbb2",
-
     "list.inactiveSelectionBackground": "#3c3836",
     "list.dropBackground": "#3c3836",
     "list.highlightForeground": "#689d6a",
