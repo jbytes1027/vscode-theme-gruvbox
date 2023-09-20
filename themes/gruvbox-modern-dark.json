@@ -91,7 +91,8 @@
       "name": "Selector",
       "scope": [
         "support.type.property-name.json", // JSON Selector/key
-        "entity.name.tag" // HTML tag
+        "source.cs keyword.query", // Linq queries
+        "entity.name.tag", // HTML tag
       ],
       "settings": {
         "foreground": "#8EC07C"
