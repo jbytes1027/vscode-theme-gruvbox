@@ -71,6 +71,7 @@
       "scope": [
         "keyword.control",
         "keyword.other.special-method.dockerfile",
+        "source.sql keyword.other",
         "keyword.other.using.cs",
         "keyword.other.await.cs",
         "keyword.other.package",
