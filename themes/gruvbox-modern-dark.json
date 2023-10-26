@@ -44,7 +44,7 @@
       }
     },
     {
-      "name": "var related",
+      "name": "types and modifiers",
       "scope": [
         "keyword.type.cs", // ex cs string a = "Hi";
         "keyword.other.namespace.cs",
@@ -53,6 +53,7 @@
         "keyword.other.record.cs",
         "keyword.other.where.cs",
         "keyword.other.enum.cs",
+        "keyword.other.interface.cs",
         "entity.name.type.cs", // ex cs Int32 a = 1;
         "keyword.other.var.cs", // ex var a = 1;
         "storage.type", // ex int
