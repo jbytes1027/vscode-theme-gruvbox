@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bigstore>
+<shop category="HouseHold">
+<Model lang="en">HD3352</Model>
+<Company>Samsung</Company>
+<year>2014</year>
+<ownat>120.00</ownat>
+</shop>
+<shop category="HouseHold">
+<Model lang="en">JH3648</Model>
+<Company>Redmi</Company>
+<year>2016</year>
+<ownat>110.00</ownat>
+</shop>
+<shop category="HouseHold">
+<Model lang="en">OKH8234</Model>
+<Company>Ziami</Company>
+<year>2012</year>
+<ownat>130.00</ownat>
+</shop>
+</Bigstore>
